@@ -39,14 +39,16 @@ nav.menu li {
     margin-left: 0;
     margin-right: 0;
     background-color: #4CAF50;
+    display: inline-block;
 }
-section {
+section.photo-et-introduction {
     position: relative;
-    width: 100%;
+    width: 40%;
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
+    height: auto;
 }
 @media only screen  and (min-width:480px) ans (max-width:640px){
   .photo et introduction {
@@ -54,8 +56,8 @@ section {
   }
   img.guitare {
       width: 40%;
-      height: auto;
       float: left;
+      height: auto;
   }
   article.introduction {
       width: 60%;

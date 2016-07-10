@@ -1,3 +1,3 @@
-get '/' do
-  erb :index
+get '/ladeuxiemepage.erb' do
+  erb :ladeuxiemepage
 end
